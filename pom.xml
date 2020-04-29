@@ -65,12 +65,12 @@
     </profiles>
 
     <build>
-        <resources>
-            <resource>
-                <!--指定资源文件-->
-                <directory>src/main/resources/env/${env}</directory>
-            </resource>
-        </resources>
+        <!--<resources>-->
+            <!--<resource>-->
+                <!--&lt;!&ndash;指定资源文件&ndash;&gt;-->
+                <!--<directory>src/main/resources/env/${env}</directory>-->
+            <!--</resource>-->
+        <!--</resources>-->
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

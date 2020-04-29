@@ -1,3 +1,9 @@
-# \u672C\u5730\u914D\u7F6E
+# 默认配置
 server:
   port: 8080
+# 需要激活的配置，从maven中取值
+spring:
+  profiles:
+    active: @env@
+whichYML: default.yml
+defaultYML: helloWorld
